@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # CareerPath
 # careers-path
 # careers-path
+# careers-path

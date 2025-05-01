@@ -12,3 +12,4 @@ Currently, two official plugins are available:
 # careers-path
 # careerpaths
 # careerpaths
+# careerpaths

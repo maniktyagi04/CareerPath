@@ -1,0 +1,112 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: var(--space-6);
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* Primary Button */
+  .btn-primary {
+    background-color: var(--color-primary-600);
+    color: white;
+    padding: var(--space-3) var(--space-6);
+    border-radius: var(--radius-md);
+    font-weight: 500;
+    transition: background-color var(--transition-fast) ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--color-primary-700);
+  }
+  
+  .btn-primary:focus {
+    outline: 2px solid var(--color-primary-700);
+    outline-offset: 2px;
+  }
+  
+  /* Secondary Button */
+  .btn-secondary {
+    background-color: var(--color-neutral-200);
+    color: var(--color-neutral-800);
+    padding: var(--space-3) var(--space-6);
+    border-radius: var(--radius-md);
+    font-weight: 500;
+    transition: background-color var(--transition-fast) ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: var(--color-neutral-300);
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: white;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    padding: var(--space-6);
+    margin-bottom: var(--space-6);
+  }
+  
+  /* Section styles */
+  .section {
+    margin-bottom: var(--space-16);
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: var(--space-6);
+    color: var(--color-neutral-900);
+  }
+  
+  .section-subtitle {
+    font-size: 1.25rem;
+    color: var(--color-neutral-600);
+    margin-bottom: var(--space-8);
+  }
+  
+  /* Container */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--space-4);
+  }
+  
+  /* Grid layout */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--space-6);
+  }
+  
+  /* Responsive designs */
+  @media (max-width: 1024px) {
+    .main-content {
+      padding: var(--space-4);
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .main-content {
+      padding: var(--space-3);
+    }
+    
+    .section-title {
+      font-size: 1.75rem;
+    }
+    
+    .section-subtitle {
+      font-size: 1.125rem;
+    }
+    
+    .card {
+      padding: var(--space-4);
+    }
+  }

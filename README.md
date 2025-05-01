@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 # careers-path
 # careers-path
 # careers-path
+# careerpaths
